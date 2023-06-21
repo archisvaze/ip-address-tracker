@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { FaChevronRight } from 'react-icons/fa';
 import { MapContainer, Marker, TileLayer } from 'react-leaflet';
 import { useDimensions } from './hooks/useDimensions';
+import './index.css';
 
 // const defaultData = {
 //     status: 'success',
